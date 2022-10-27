@@ -6,3 +6,14 @@
 * `git diff` muestra las diferencias entre el directorio de trabajo y el **área de staging**.
 * `git commit` almacena permanentemente los cambios efectuados a los archivos desde el **área de staging**.
 * `git log` muestra una lista de commits previos.
+
+# Flujo de trabajo local con git
+
+```
+git init
+git add .
+git commit -m "Mensaje de commit"
+git add .
+git commit -m "Mensaje de commit"
+...
+```
